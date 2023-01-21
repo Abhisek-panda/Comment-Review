@@ -1,0 +1,71 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #EEEEEE; 
+}
+.container{
+    background-color: #5C9EAD;
+    text-align: center;
+    width: 50rem;
+    height: auto;
+    display: block;
+    margin:auto;
+    margin-top: 1.2rem;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+#line{
+    width: 100px;
+    background-color: #E39774;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+
+#review-image{
+    height: 300px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.flex-line{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#name{
+    font-size: 22px;
+}
+#job-profile{
+    font-size: 20px;
+}
+
+#info{
+    font-size: 18px;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border-color:white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: #E39774;
+    color:white;
+}
